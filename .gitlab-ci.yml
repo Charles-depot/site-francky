@@ -1,0 +1,15 @@
+image: python:latest
+pages:
+  stage: deploy
+  only:
+    - master
+  script:
+    - python -m pip install -U pip
+    - python -m pip install mkdocs-material
+    - python -m pip install mkdocs-macros-plugin
+    - python -m pip install drawSvg
+    - python -m pip install ipythonblocks
+    - mkdocs build --site-dir public
+  artifacts:
+    paths:
+      - public
