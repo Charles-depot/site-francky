@@ -8,3 +8,9 @@ Votre contenu
 - Vous avez un peu [d'aide](aide-mémoire.md).
 
 Soyez créatifs.
+
+# test moi
+
+???+ warning "Avertissement, dépliée par défaut"
+
+    **Attention** ceci est un avertissement. 
